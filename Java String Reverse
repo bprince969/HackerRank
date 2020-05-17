@@ -1,0 +1,15 @@
+import java.lang.*; 
+import java.io.*; 
+import java.util.*; 
+public class Main
+{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+    String s=sc.nextLine();
+    StringBuilder i=new StringBuilder();
+    i.append(s);
+    i=i.reverse();
+    String s1=i.toString();
+System.out.println(s.equals(s1) ? "Yes" : "No");
+}
+}
